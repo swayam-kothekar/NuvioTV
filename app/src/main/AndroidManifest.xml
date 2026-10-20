@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-sdk tools:overrideLibrary="androidx.activity,androidx.activity.compose,androidx.activity.ktx,androidx.compose.animation,androidx.compose.animation.core,androidx.compose.foundation,androidx.compose.foundation.layout,androidx.compose.material.ripple,androidx.compose.runtime,androidx.compose.runtime.annotation,androidx.compose.runtime.retain,androidx.compose.runtime.saveable,androidx.compose.runtime.tracing,androidx.compose.ui,androidx.compose.ui.geometry,androidx.compose.ui.graphics,androidx.compose.ui.test.manifest,androidx.compose.ui.text,androidx.compose.ui.tooling,androidx.compose.ui.tooling.data,androidx.compose.ui.tooling.preview,androidx.compose.ui.unit,androidx.compose.ui.util,androidx.media3.decoder.ffmpeg,androidx.metrics.performance,androidx.navigationevent,androidx.navigationevent.compose,androidx.tracing.perfetto,androidx.tv.material,androidx.tv.foundation,androidx.window,androidx.window.core,com.dokar.quickjs,com.lagradost.api,com.nuvio.engine,dev.chrisbanes.haze,io.github.anilbeesetti.nextlib.mediainfo" />
+
     <!-- Android 11+ fix: SpeechRecognizer not available without this -->
     <!-- https://stackoverflow.com/questions/64319117/speechrecognizer-not-available-when-targeting-android-11 -->
     <queries>
